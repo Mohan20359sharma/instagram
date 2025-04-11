@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Instagram</title>
+    <link rel="stylesheet" href="sidebar.css">
+    <link rel="stylesheet" href="right-sidebar.css">
+    <link rel="stylesheet" href="story.css">
+    <link rel="stylesheet" href="post.css">
+    <style>
+        .profile-post{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            margin-left: 90px;
+            margin-top: 30px;
+        }
+        .post-img{
+            width: 460px;
+            /* margin-left: 0px; */
+
+        }
+    </style>
+</head>
+<body>
+    <div class="sidebar">
+        <div class="left-sidebar">
+            <div class="instagram">
+                <img src="logo-image/instagram-text-icon.svg" alt="" class="instagram">
+            </div>
+            <div class="icons">
+                <img src="logo-image/home.svg" alt="" class="img">
+                <div class="title">Home</div>
+            </div>
+            <div class="icons">
+                <img src="logo-image/instagram-search-icon.svg" alt="" class="img">
+                <div class="title">Search</div>
+            </div>
+            <div class="icons">
+                <img src="logo-image/explore.svg" alt="" class="explore-img">
+                <div class="title">Explore</div></div>
+            <div class="icons">
+                <img src="logo-image/instagram-reels-icon.svg" alt="" class="img">
+                <div class="title">Reels</div></div>
+            <div class="icons">
+                <img src="logo-image/instagram-dm-direct-message-icon.svg" alt="" class="img">
+                <div class="title">Messages</div>
+                <div class="message-top">9</div>
+            </div>
+            <div class="icons">
+                <img src="logo-image/instagram-heart-icon.svg" alt="" class="img">
+                <div class="title">Notifications</div>
+            </div>
+            <div class="icons">
+                <img src="logo-image/instagram-add-new-post-icon.svg" alt="" class="img">
+                <div class="title">Create</div>
+            </div>
+                <div class="icons">
+                <img src="logo-image/profile.jpg" alt="" class="profile-type">
+                <div class="title">Profile</div>
+            </div>
+            <div class="icons" id="menu">
+                <img src="logo-image/three-horizontal-lines-outline-icon.svg" alt="" class="img">
+                <div class="title">More</div>
+            </div>
+        </div>   
+       
+    </div>
+    <div class="middle">
+        <div class="story">
+            <div class="story-profile">
+                <div class="img-story">
+                    <img src="story-img/pulkit.jpg" alt="" class="story-img">
+                </div>
+                <div class="profile-name">_pulki.vashi...</div>
+            </div>
+            <div class="story-profile">
+                <div class="img-story">
+                    <img src="story-img/anshu.jpg" alt="" class="story-img">
+                </div>
+                <div class="profile-name">ashuashuk...</div>
+            </div>
+            <div class="story-profile">
+                <div class="img-story">
+                    <img src="story-img/yogendr.jpg" alt="" class="story-img">
+                </div>
+                <div class="profile-name">thakur_yo...</div>
+            </div>
+            <div class="story-profile">
+                <div class="img-story">
+                    <img src="story-img/yogita.jpg" alt="" class="story-img">
+                </div>
+                <div class="profile-name">kairashar...</div>
+            </div>
+            <div class="story-profile">
+                <div class="img-story">
+                    <img src="story-img/brajkant.jpg" alt="" class="story-img">
+                </div>
+                <div class="profile-name">brajkant_s...</div>
+            </div>
+            <div class="story-profile">
+                <div class="img-story">
+                    <img src="story-img/saurabh.jpg" alt="" class="story-img">
+                </div>
+                <div class="profile-name">sharmasau...</div>
+            </div>
+            <div class="story-profile">
+                <div class="img-story">
+                    <img src="story-img/raja.jpg" alt="" class="story-img">
+                </div>
+                <div class="profile-name">raja_rajput...</div>
+            </div>
+            <div class="story-profile">
+                <div class="img-story">
+                    <img src="story-img/harshit.jpg" alt="" class="story-img">
+                </div>
+                <div class="profile-name">harshit.agr...</div>
+            </div>
+            <div class="story nav-story" onclick="scrollStories(1)">
+                <div class="nav-arrow">&#10095;</div>
+            </div>
+            
+        </div>
+        <div class="post">
+            <div class="profile-post">
+                <div class="post-profile">
+                    <div class="img-profile-post">
+                        <img src="post-profille-img/saurabh.jpg" alt="" class="post-profile-img">
+                    </div>
+                    <div class="post-profile-name">
+                        <p class="name-profile-post">saurabh.thakur.111 <strong> &#183; </strong><span>1w</span></p>
+                        <div class="menu-vertical">
+                            <img src="logo-image/vertical-menu.svg" alt="" class="vertical-menu">
+                        </div>
+                    </div>
+                </div>
+                <div class="post-img">
+                    <img src="post-img/saurabh.jpg" alt="" class="post-img">
+                </div>
+                <div class="post-title"></div>
+            </div>
+        </div>
+        </div>
+        <div class="right-sidebar">
+       <div class="id-profile">
+           <div>
+               <img src="profile-img/profile.jpg" alt="" class="id-img">
+           </div>
+           <div class="id-name">
+            <p class="username">mohan_sharma_20359</p>
+            <p class="name">Mohan sharma</p>
+           </div>
+           <div class="button">
+            <p class="follow" >Switch</p>
+           </div>
+       </div>
+       <div class="suggest">
+        <p class="normal">Suggested for you</p>
+        <p class="see">See All</p>
+       </div>
+       <div class="id-profile">
+           <div>
+               <img src="profile-img/today_nothing.jpg" alt="" class="id-img">
+           </div>
+           <div class="id-name">
+            <p class="username">today_nothing_123</p>
+            <p class="name">Suggested for you</p>
+           </div>
+           <div class="button">
+            <p class="follow">Follow</p>
+           </div>
+       </div>
+       <div class="id-profile">
+           <div>
+               <img src="profile-img/sakhi.jpg" alt="" class="id-img">
+           </div>
+           <div class="id-name">
+            <p class="username">shri._sakhi0921</p>
+            <p class="name">Suggested for you</p>
+           </div>
+           <div class="button">
+            <p class="follow" >Follow</p>
+           </div>
+       </div>
+       <div class="id-profile">
+           <div>
+               <img src="profile-img/neerajsharma.jpg" alt="" class="id-img">
+           </div>
+           <div class="id-name">
+            <p class="username">neerajsharma1367</p>
+            <p class="name">Followed by mayanksh...</p>
+           </div>
+           <div class="button">
+            <p class="follow">Follow</p>
+           </div>
+       </div>
+       <div class="id-profile">
+           <div>
+               <img src="profile-img/shribhagwan.jpg" alt="" class="id-img">
+           </div>
+           <div class="id-name">
+            <p class="username">shribhagwan.sharma....</p>
+            <p class="name">Following imjoker4516</p>
+           </div>
+           <div class="button">
+            <p class="follow">Follow</p>
+           </div>
+       </div>
+       <div class="id-profile">
+           <div>
+               <img src="profile-img/kajal.jpg" alt="" class="id-img">
+           </div>
+           <div class="id-name">
+            <p class="username">kajal_sharma007__</p>
+            <p class="name">Followed mohan_sharm...</p>
+           </div>
+           <div class="button">
+            <p class="follow">Follow</p>
+           </div>
+       </div>
+        </div>
+    
+    
+       
+    
+</body>
+</html>
